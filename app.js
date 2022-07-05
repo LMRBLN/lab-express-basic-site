@@ -19,4 +19,9 @@ app.get("/quotes", (request, response) => {
     response.sendFile(__dirname + '/views/quotes.html')
 });
 
+app.get("/gallery", (request, response) => {
+    console.log("we've received a request for the GALLERY PAGE")
+    response.sendFile(__dirname + '/views/gallery.html')
+});
+
 app.listen(3001, () => console.log("express app listening in port 3001"));

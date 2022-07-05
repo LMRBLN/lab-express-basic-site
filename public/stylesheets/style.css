@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    color: blue;
+    size: 20px;
+}
+
+h2 {
+    color: blueviolet;
+    size: 18px;
+}
+
+h3 {
+    color: green;
+    size: 16px;
+}
+
+p {
+    size: 14px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navbar {
+    text-align : right;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
